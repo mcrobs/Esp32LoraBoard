@@ -1558,45 +1558,45 @@ Wire Wire Line
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5F9BAB8B
-P 2300 8150
-F 0 "FID1" H 2385 8196 50  0000 L CNN
-F 1 "Fiducial" H 2385 8105 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 2300 8150 50  0001 C CNN
-F 3 "~" H 2300 8150 50  0001 C CNN
-	1    2300 8150
+P 13500 9400
+F 0 "FID1" H 13585 9446 50  0000 L CNN
+F 1 "Fiducial" H 13585 9355 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 13500 9400 50  0001 C CNN
+F 3 "~" H 13500 9400 50  0001 C CNN
+	1    13500 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID2
 U 1 1 5F9BCFDF
-P 2900 8150
-F 0 "FID2" H 2985 8196 50  0000 L CNN
-F 1 "Fiducial" H 2985 8105 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 2900 8150 50  0001 C CNN
-F 3 "~" H 2900 8150 50  0001 C CNN
-	1    2900 8150
+P 14100 9400
+F 0 "FID2" H 14185 9446 50  0000 L CNN
+F 1 "Fiducial" H 14185 9355 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 14100 9400 50  0001 C CNN
+F 3 "~" H 14100 9400 50  0001 C CNN
+	1    14100 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID3
 U 1 1 5F9CAA25
-P 3500 8150
-F 0 "FID3" H 3585 8196 50  0000 L CNN
-F 1 "Fiducial" H 3585 8105 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 3500 8150 50  0001 C CNN
-F 3 "~" H 3500 8150 50  0001 C CNN
-	1    3500 8150
+P 14700 9400
+F 0 "FID3" H 14785 9446 50  0000 L CNN
+F 1 "Fiducial" H 14785 9355 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 14700 9400 50  0001 C CNN
+F 3 "~" H 14700 9400 50  0001 C CNN
+	1    14700 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID4
 U 1 1 5F9D98F6
-P 4050 8150
-F 0 "FID4" H 4135 8196 50  0000 L CNN
-F 1 "Fiducial" H 4135 8105 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 4050 8150 50  0001 C CNN
-F 3 "~" H 4050 8150 50  0001 C CNN
-	1    4050 8150
+P 15250 9400
+F 0 "FID4" H 15335 9446 50  0000 L CNN
+F 1 "Fiducial" H 15335 9355 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 15250 9400 50  0001 C CNN
+F 3 "~" H 15250 9400 50  0001 C CNN
+	1    15250 9400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

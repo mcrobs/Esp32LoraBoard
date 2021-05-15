@@ -4,17 +4,17 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Esp32LoraBoard"
-Date "2020-10-17"
-Rev "1.2"
-Comp "Viktor Rees"
-Comment1 "Reset-Button added"
-Comment2 "Fixed FET Orientation"
-Comment3 "Added Jumper J9"
+Title "Esp32LoraRennt"
+Date "2021-05-15"
+Rev "1.3"
+Comp "Robert Messner"
+Comment1 "Adapted to RM002"
+Comment2 ""
+Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RF_Module:RFM95W-868S2 U3
+L Esp32LoraBoard-rescue:RFM95W-868S2-RF_Module U3
 U 1 1 5E768185
 P 9900 3550
 F 0 "U3" H 9550 4200 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H 660
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L Esp32LoraBoard-rescue:GND-power #PWR02
 U 1 1 5E768A8E
 P 7100 5600
 F 0 "#PWR02" H 7100 5350 50  0001 C CNN
@@ -36,7 +36,7 @@ F 3 "" H 7100 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Micro J1
+L Esp32LoraBoard-rescue:USB_B_Micro-Connector J1
 U 1 1 5E770A21
 P 1450 2400
 F 0 "J1" H 1507 2867 50  0000 C CNN
@@ -47,7 +47,7 @@ F 3 "~" H 1600 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L Esp32LoraBoard-rescue:C-Device C1
 U 1 1 5E774A1D
 P 2000 2500
 F 0 "C1" H 2115 2546 50  0000 L CNN
@@ -58,7 +58,7 @@ F 3 "~" H 2000 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C2
+L Esp32LoraBoard-rescue:CP_Small-Device C2
 U 1 1 5E775400
 P 3900 2450
 F 0 "C2" H 3650 2500 50  0000 L CNN
@@ -164,7 +164,7 @@ Connection ~ 7100 1850
 Wire Wire Line
 	7100 1850 8100 1850
 $Comp
-L Device:R R1
+L Esp32LoraBoard-rescue:R-Device R1
 U 1 1 5E7EC38A
 P 5950 2100
 F 0 "R1" H 6020 2146 50  0000 L CNN
@@ -177,7 +177,7 @@ $EndComp
 Wire Wire Line
 	5950 1950 5950 1850
 $Comp
-L Device:C_Small C4
+L Esp32LoraBoard-rescue:C_Small-Device C4
 U 1 1 5E7EEDD1
 P 6850 2100
 F 0 "C4" H 6900 2200 50  0000 L CNN
@@ -188,7 +188,7 @@ F 3 "~" H 6850 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C3
+L Esp32LoraBoard-rescue:C_Small-Device C3
 U 1 1 5E7EF5BD
 P 6650 2100
 F 0 "C3" H 6500 2200 50  0000 L CNN
@@ -204,7 +204,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 2650 6500 2650
 $Comp
-L power:GND #PWR03
+L Esp32LoraBoard-rescue:GND-power #PWR03
 U 1 1 5E7F997D
 P 6650 2300
 F 0 "#PWR03" H 6650 2050 50  0001 C CNN
@@ -237,7 +237,7 @@ NoConn ~ 10400 3450
 NoConn ~ 10400 3550
 NoConn ~ 10400 3650
 $Comp
-L Device:Antenna_Shield AE1
+L Esp32LoraBoard-rescue:Antenna_Shield-Device AE1
 U 1 1 5E824860
 P 10750 3050
 F 0 "AE1" H 10894 3089 50  0000 L CNN
@@ -272,7 +272,7 @@ NoConn ~ 1350 2800
 Wire Wire Line
 	4400 2850 4400 2650
 $Comp
-L Device:Battery_Cell BT1
+L Esp32LoraBoard-rescue:Battery_Cell-Device BT1
 U 1 1 5E76B5A2
 P 4400 2550
 F 0 "BT1" H 4518 2646 50  0000 L CNN
@@ -287,7 +287,7 @@ Wire Wire Line
 	3900 2850 4400 2850
 Connection ~ 3900 2200
 $Comp
-L power:PWR_FLAG #FLG0101
+L Esp32LoraBoard-rescue:PWR_FLAG-power #FLG0101
 U 1 1 5E8510E5
 P 7100 1750
 F 0 "#FLG0101" H 7100 1825 50  0001 C CNN
@@ -337,7 +337,7 @@ Connection ~ 2300 2850
 Wire Wire Line
 	2300 2850 3900 2850
 $Comp
-L Connector:Conn_01x03_Male J2
+L Esp32LoraBoard-rescue:Conn_01x03_Male-Connector J2
 U 1 1 5E79B0E4
 P 4300 1500
 F 0 "J2" V 4200 1700 50  0000 L CNN
@@ -358,7 +358,7 @@ V-Batt
 Text Label 4200 1500 1    50   ~ 0
 +3.3V
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J4
+L Esp32LoraBoard-rescue:Conn_02x05_Odd_Even-Connector_Generic J4
 U 1 1 5E79A3E4
 P 15100 1250
 F 0 "J4" H 15150 1600 50  0000 C CNN
@@ -370,7 +370,7 @@ F 3 "~" H 15100 1250 50  0001 C CNN
 $EndComp
 NoConn ~ 14900 1050
 $Comp
-L power:GND #PWR0101
+L Esp32LoraBoard-rescue:GND-power #PWR0101
 U 1 1 5E7A450E
 P 14900 1600
 F 0 "#PWR0101" H 14900 1350 50  0001 C CNN
@@ -410,7 +410,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 2250 5950 2650
 $Comp
-L Device:C_Small C5
+L Esp32LoraBoard-rescue:C_Small-Device C5
 U 1 1 5E7C919D
 P 5950 2850
 F 0 "C5" H 5800 2950 50  0000 L CNN
@@ -423,7 +423,7 @@ $EndComp
 Text Label 4300 1500 1    50   ~ 0
 VCC
 $Comp
-L power:GND #PWR0102
+L Esp32LoraBoard-rescue:GND-power #PWR0102
 U 1 1 5E7E119F
 P 5950 3100
 F 0 "#PWR0102" H 5950 2850 50  0001 C CNN
@@ -446,7 +446,7 @@ RTS
 Text Label 13200 1400 2    50   ~ 0
 Reset
 $Comp
-L Device:R R2
+L Esp32LoraBoard-rescue:R-Device R2
 U 1 1 5E7F7F43
 P 8100 2100
 F 0 "R2" H 8170 2146 50  0000 L CNN
@@ -457,7 +457,7 @@ F 3 "~" H 8100 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C6
+L Esp32LoraBoard-rescue:C_Small-Device C6
 U 1 1 5E7F84E1
 P 8500 2450
 F 0 "C6" H 8350 2350 50  0000 L CNN
@@ -482,7 +482,7 @@ Connection ~ 8100 2300
 Wire Wire Line
 	8100 2300 8100 2250
 $Comp
-L power:GND #PWR0103
+L Esp32LoraBoard-rescue:GND-power #PWR0103
 U 1 1 5E805E63
 P 8500 2550
 F 0 "#PWR0103" H 8500 2300 50  0001 C CNN
@@ -514,7 +514,7 @@ F 11 "" H 13950 400 50  0001 L CNN "RS Price/Stock"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x05_Male J5
+L Esp32LoraBoard-rescue:Conn_01x05_Male-Connector J5
 U 1 1 5E817E19
 P 12150 1250
 F 0 "J5" H 12250 1600 50  0000 C CNN
@@ -583,7 +583,7 @@ RX
 Wire Wire Line
 	12350 1150 12550 1150
 $Comp
-L power:GND #PWR01
+L Esp32LoraBoard-rescue:GND-power #PWR01
 U 1 1 5E8240E9
 P 2000 2950
 F 0 "#PWR01" H 2000 2700 50  0001 C CNN
@@ -596,7 +596,7 @@ $EndComp
 Wire Wire Line
 	2000 2950 2000 2850
 $Comp
-L RF_Module:ESP32-WROOM-32 U2
+L Esp32LoraBoard-rescue:ESP32-WROOM-32-RF_Module U2
 U 1 1 5E764E61
 P 7100 3850
 F 0 "U2" H 7250 5350 50  0000 C CNN
@@ -611,7 +611,7 @@ Wire Wire Line
 Text Label 8350 4850 2    50   ~ 0
 UBAT_MEASURE
 $Comp
-L Device:Q_NMOS_GSD Q2
+L Esp32LoraBoard-rescue:Q_NMOS_GSD-Device Q2
 U 1 1 5E86E587
 P 2300 5650
 F 0 "Q2" H 2506 5696 50  0000 L CNN
@@ -626,7 +626,7 @@ Wire Wire Line
 Text Label 8350 3050 2    50   ~ 0
 U_EXT_ENABLE
 $Comp
-L power:VCC #PWR05
+L Esp32LoraBoard-rescue:VCC-power #PWR05
 U 1 1 5E8B8A54
 P 5950 1650
 F 0 "#PWR05" H 5950 1500 50  0001 C CNN
@@ -639,7 +639,7 @@ $EndComp
 Wire Wire Line
 	5950 1650 5950 1850
 $Comp
-L Device:R R5
+L Esp32LoraBoard-rescue:R-Device R5
 U 1 1 5E92B95B
 P 2200 4650
 F 0 "R5" H 2270 4696 50  0000 L CNN
@@ -650,7 +650,7 @@ F 3 "~" H 2200 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R6
+L Esp32LoraBoard-rescue:R-Device R6
 U 1 1 5E92B961
 P 2200 5150
 F 0 "R6" H 2270 5196 50  0000 L CNN
@@ -670,7 +670,7 @@ Wire Wire Line
 Text Label 2950 4900 2    50   ~ 0
 U_EXT_MEASURE
 $Comp
-L Device:R R7
+L Esp32LoraBoard-rescue:R-Device R7
 U 1 1 5E92B97B
 P 2650 5900
 F 0 "R7" H 2720 5946 50  0000 L CNN
@@ -681,7 +681,7 @@ F 3 "~" H 2650 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR06
+L Esp32LoraBoard-rescue:+3.3V-power #PWR06
 U 1 1 5E944402
 P 3900 2050
 F 0 "#PWR06" H 3900 1900 50  0001 C CNN
@@ -694,7 +694,7 @@ $EndComp
 Wire Wire Line
 	3900 2200 3900 2050
 $Comp
-L Connector:Conn_01x03_Male J7
+L Esp32LoraBoard-rescue:Conn_01x03_Male-Connector J7
 U 1 1 5E94C489
 P 2200 4150
 F 0 "J7" V 2200 3800 50  0000 L CNN
@@ -732,7 +732,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 4500 3800 4500
 $Comp
-L Device:R R8
+L Esp32LoraBoard-rescue:R-Device R8
 U 1 1 5E8CB9EE
 P 4150 4700
 F 0 "R8" H 4220 4746 50  0000 L CNN
@@ -743,7 +743,7 @@ F 3 "~" H 4150 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR04
+L Esp32LoraBoard-rescue:VCC-power #PWR04
 U 1 1 5E8BF748
 P 3800 4200
 F 0 "#PWR04" H 3800 4050 50  0001 C CNN
@@ -754,7 +754,7 @@ F 3 "" H 3800 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP1
+L Esp32LoraBoard-rescue:TestPoint-Connector TP1
 U 1 1 5E8ABFC1
 P 3500 5650
 F 0 "TP1" H 3500 5900 50  0000 C CNN
@@ -778,7 +778,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 5700 3800 5650
 $Comp
-L Device:R R4
+L Esp32LoraBoard-rescue:R-Device R4
 U 1 1 5E833546
 P 3800 5850
 F 0 "R4" H 3870 5896 50  0000 L CNN
@@ -789,7 +789,7 @@ F 3 "~" H 3800 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L Esp32LoraBoard-rescue:R-Device R3
 U 1 1 5E8330E4
 P 3800 5350
 F 0 "R3" H 3870 5396 50  0000 L CNN
@@ -809,7 +809,7 @@ Connection ~ 3800 4350
 Wire Wire Line
 	3800 4350 3800 4500
 $Comp
-L Connector:Screw_Terminal_01x04 J6
+L Esp32LoraBoard-rescue:Screw_Terminal_01x04-Connector J6
 U 1 1 5EA379DD
 P 1600 4900
 F 0 "J6" H 1650 4450 50  0000 C CNN
@@ -844,7 +844,7 @@ U-ext
 Wire Wire Line
 	4300 1850 5950 1850
 $Comp
-L Connector:Conn_01x05_Male J3
+L Esp32LoraBoard-rescue:Conn_01x05_Male-Connector J3
 U 1 1 5EA91CBE
 P 10950 1250
 F 0 "J3" H 11200 900 50  0000 R CNN
@@ -883,7 +883,7 @@ Wire Wire Line
 Text Label 8350 4350 2    50   ~ 0
 UBAT_ENABLE
 $Comp
-L power:GND #PWR07
+L Esp32LoraBoard-rescue:GND-power #PWR07
 U 1 1 5E81206F
 P 2650 6400
 F 0 "#PWR07" H 2650 6150 50  0001 C CNN
@@ -913,7 +913,7 @@ Wire Wire Line
 Text Label 8350 3650 2    50   ~ 0
 POWER_ENABLE
 $Comp
-L Connector:TestPoint TP3
+L Esp32LoraBoard-rescue:TestPoint-Connector TP3
 U 1 1 5E8E9498
 P 14250 3700
 F 0 "TP3" V 14300 3900 50  0000 L CNN
@@ -932,7 +932,7 @@ Wire Wire Line
 Wire Wire Line
 	14250 2850 14250 2950
 $Comp
-L Device:Q_PMOS_GSD Q5
+L Esp32LoraBoard-rescue:Q_PMOS_GSD-Device Q5
 U 1 1 5E86C61C
 P 14350 3350
 F 0 "Q5" H 14556 3396 50  0000 L CNN
@@ -945,7 +945,7 @@ $EndComp
 Text Label 14750 3350 0    50   ~ 0
 POWER_ENABLE
 $Comp
-L power:VCC #PWR011
+L Esp32LoraBoard-rescue:VCC-power #PWR011
 U 1 1 5E86C615
 P 14250 2850
 F 0 "#PWR011" H 14250 2700 50  0001 C CNN
@@ -956,7 +956,7 @@ F 3 "" H 14250 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R12
+L Esp32LoraBoard-rescue:R-Device R12
 U 1 1 5E86C60F
 P 14600 3150
 F 0 "R12" H 14670 3196 50  0000 L CNN
@@ -1005,7 +1005,7 @@ Wire Wire Line
 Wire Wire Line
 	14600 6250 14650 6250
 $Comp
-L Device:R R13
+L Esp32LoraBoard-rescue:R-Device R13
 U 1 1 5E9A789D
 P 14650 6000
 F 0 "R13" H 14720 6046 50  0000 L CNN
@@ -1016,7 +1016,7 @@ F 3 "~" H 14650 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R11
+L Esp32LoraBoard-rescue:R-Device R11
 U 1 1 5E9A7897
 P 14150 6000
 F 0 "R11" H 14220 6046 50  0000 L CNN
@@ -1027,7 +1027,7 @@ F 3 "~" H 14150 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD Q6
+L Esp32LoraBoard-rescue:Q_NMOS_GSD-Device Q6
 U 1 1 5E9A7891
 P 14400 6150
 F 0 "Q6" V 14650 6100 50  0000 L CNN
@@ -1048,7 +1048,7 @@ Wire Wire Line
 Wire Wire Line
 	11900 6550 12000 6550
 $Comp
-L power:GND #PWR09
+L Esp32LoraBoard-rescue:GND-power #PWR09
 U 1 1 5E981C87
 P 12000 6650
 F 0 "#PWR09" H 12000 6400 50  0001 C CNN
@@ -1059,7 +1059,7 @@ F 3 "" H 12000 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Female J8
+L Esp32LoraBoard-rescue:Conn_01x04_Female-Connector J8
 U 1 1 5E971AD5
 P 11700 6450
 F 0 "J8" H 11600 5950 50  0000 L CNN
@@ -1090,7 +1090,7 @@ Wire Wire Line
 Wire Wire Line
 	13250 6250 13300 6250
 $Comp
-L Device:R R10
+L Esp32LoraBoard-rescue:R-Device R10
 U 1 1 5E84F630
 P 13300 6000
 F 0 "R10" H 13370 6046 50  0000 L CNN
@@ -1101,7 +1101,7 @@ F 3 "~" H 13300 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R9
+L Esp32LoraBoard-rescue:R-Device R9
 U 1 1 5E84F1A8
 P 12800 6000
 F 0 "R9" H 12870 6046 50  0000 L CNN
@@ -1112,7 +1112,7 @@ F 3 "~" H 12800 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD Q4
+L Esp32LoraBoard-rescue:Q_NMOS_GSD-Device Q4
 U 1 1 5E834056
 P 13050 6150
 F 0 "Q4" V 13300 6100 50  0000 L CNN
@@ -1125,7 +1125,7 @@ $EndComp
 Wire Wire Line
 	3500 5650 3800 5650
 $Comp
-L Connector:TestPoint TP2
+L Esp32LoraBoard-rescue:TestPoint-Connector TP2
 U 1 1 5EA4B783
 P 3100 5650
 F 0 "TP2" H 3100 5950 50  0000 C CNN
@@ -1140,7 +1140,7 @@ Wire Wire Line
 Text Label 2950 5650 2    50   ~ 0
 U_EXT_ENABLE
 $Comp
-L Device:C C8
+L Esp32LoraBoard-rescue:C-Device C8
 U 1 1 5EA7A534
 P 14250 3950
 F 0 "C8" H 14365 3996 50  0000 L CNN
@@ -1154,7 +1154,7 @@ Wire Wire Line
 	14250 3700 14250 3800
 Connection ~ 14250 3700
 $Comp
-L power:GND #PWR012
+L Esp32LoraBoard-rescue:GND-power #PWR012
 U 1 1 5EA83328
 P 14250 4150
 F 0 "#PWR012" H 14250 3900 50  0001 C CNN
@@ -1169,7 +1169,7 @@ Wire Wire Line
 Text Notes 10450 4450 2    50   ~ 0
 Lora Pins
 $Comp
-L Device:C C7
+L Esp32LoraBoard-rescue:C-Device C7
 U 1 1 5EAC77C4
 P 10050 2750
 F 0 "C7" V 9798 2750 50  0000 C CNN
@@ -1183,7 +1183,7 @@ Connection ~ 9900 2750
 Wire Wire Line
 	9900 2750 9900 3050
 $Comp
-L power:GND #PWR08
+L Esp32LoraBoard-rescue:GND-power #PWR08
 U 1 1 5EAC7E73
 P 10200 2750
 F 0 "#PWR08" H 10200 2500 50  0001 C CNN
@@ -1254,7 +1254,7 @@ Optional Power Supply
 Text Label 1800 4600 1    50   ~ 0
 ext.Voltage
 $Comp
-L Device:Rotary_Encoder_Switch SW1
+L Esp32LoraBoard-rescue:Rotary_Encoder_Switch-Device SW1
 U 1 1 5E862008
 P 7000 7700
 F 0 "SW1" H 7000 7400 50  0000 C CNN
@@ -1265,7 +1265,7 @@ F 3 "~" H 7000 7960 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R14
+L Esp32LoraBoard-rescue:R-Device R14
 U 1 1 5E865359
 P 6050 7300
 F 0 "R14" H 6120 7346 50  0000 L CNN
@@ -1276,7 +1276,7 @@ F 3 "~" H 6050 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R15
+L Esp32LoraBoard-rescue:R-Device R15
 U 1 1 5E86599D
 P 6300 7300
 F 0 "R15" H 6370 7346 50  0000 L CNN
@@ -1287,7 +1287,7 @@ F 3 "~" H 6300 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L Esp32LoraBoard-rescue:C-Device C9
 U 1 1 5E865D88
 P 6050 8000
 F 0 "C9" H 5800 8050 50  0000 L CNN
@@ -1298,7 +1298,7 @@ F 3 "~" H 6050 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L Esp32LoraBoard-rescue:C-Device C10
 U 1 1 5E86621D
 P 6300 8000
 F 0 "C10" H 6415 8046 50  0000 L CNN
@@ -1392,7 +1392,7 @@ ROT_B
 Text Label 8000 3750 2    50   ~ 0
 ROT_SW
 $Comp
-L power:GND #PWR014
+L Esp32LoraBoard-rescue:GND-power #PWR014
 U 1 1 5E9DC8F4
 P 6550 8300
 F 0 "#PWR014" H 6550 8050 50  0001 C CNN
@@ -1405,7 +1405,7 @@ $EndComp
 Wire Wire Line
 	6550 8300 6550 8250
 $Comp
-L Switch:SW_Push_Dual_x2 SW2
+L Esp32LoraBoard-rescue:SW_Push_Dual_x2-Switch SW2
 U 1 1 5E94C2C5
 P 5600 2850
 F 0 "SW2" V 5900 2800 50  0000 L CNN
@@ -1435,7 +1435,7 @@ Wire Wire Line
 Wire Wire Line
 	14650 5700 14650 5850
 $Comp
-L power:VCC #PWR013
+L Esp32LoraBoard-rescue:VCC-power #PWR013
 U 1 1 5E9A78A9
 P 14650 5700
 F 0 "#PWR013" H 14650 5550 50  0001 C CNN
@@ -1448,7 +1448,7 @@ $EndComp
 Wire Wire Line
 	13300 5700 13300 5850
 $Comp
-L power:VCC #PWR010
+L Esp32LoraBoard-rescue:VCC-power #PWR010
 U 1 1 5E93EE29
 P 13300 5700
 F 0 "#PWR010" H 13300 5550 50  0001 C CNN
@@ -1459,7 +1459,7 @@ F 3 "" H 13300 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP4
+L Esp32LoraBoard-rescue:TestPoint-Connector TP4
 U 1 1 5EA46AF4
 P 3100 4850
 F 0 "TP4" H 3100 5150 50  0000 C CNN
@@ -1470,7 +1470,7 @@ F 3 "~" H 3300 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP5
+L Esp32LoraBoard-rescue:TestPoint-Connector TP5
 U 1 1 5EA53C46
 P 4150 5050
 F 0 "TP5" H 4000 5200 50  0000 C CNN
@@ -1487,7 +1487,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 4950 4150 5050
 $Comp
-L Connector:TestPoint TP6
+L Esp32LoraBoard-rescue:TestPoint-Connector TP6
 U 1 1 5EA89641
 P 3500 6350
 F 0 "TP6" H 3650 6450 50  0000 C CNN
@@ -1503,7 +1503,7 @@ Connection ~ 3500 6200
 Wire Wire Line
 	3500 6200 3800 6200
 $Comp
-L Device:Q_PMOS_GSD Q3
+L Esp32LoraBoard-rescue:Q_PMOS_GSD-Device Q3
 U 1 1 5E85ED6C
 P 3900 4950
 F 0 "Q3" H 4106 4996 50  0000 L CNN
@@ -1517,7 +1517,7 @@ Wire Wire Line
 	3800 4750 3800 4500
 Connection ~ 3800 4500
 $Comp
-L Connector:Conn_01x02_Male J9
+L Esp32LoraBoard-rescue:Conn_01x02_Male-Connector J9
 U 1 1 5F90B574
 P 1550 5450
 F 0 "J9" H 1400 5400 50  0000 L CNN
@@ -1538,7 +1538,7 @@ Wire Wire Line
 	1900 6200 2200 6200
 Connection ~ 2200 6200
 $Comp
-L Connector:TestPoint TP7
+L Esp32LoraBoard-rescue:TestPoint-Connector TP7
 U 1 1 5F979AE7
 P 8950 5550
 F 0 "TP7" H 9100 5650 50  0000 C CNN
@@ -1556,7 +1556,7 @@ Connection ~ 8950 5400
 Wire Wire Line
 	8950 5400 9900 5400
 $Comp
-L Mechanical:Fiducial FID1
+L Esp32LoraBoard-rescue:Fiducial-Mechanical FID1
 U 1 1 5F9BAB8B
 P 13500 9400
 F 0 "FID1" H 13585 9446 50  0000 L CNN
@@ -1567,7 +1567,7 @@ F 3 "~" H 13500 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID2
+L Esp32LoraBoard-rescue:Fiducial-Mechanical FID2
 U 1 1 5F9BCFDF
 P 14100 9400
 F 0 "FID2" H 14185 9446 50  0000 L CNN
@@ -1578,7 +1578,7 @@ F 3 "~" H 14100 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID3
+L Esp32LoraBoard-rescue:Fiducial-Mechanical FID3
 U 1 1 5F9CAA25
 P 14700 9400
 F 0 "FID3" H 14785 9446 50  0000 L CNN
@@ -1589,7 +1589,7 @@ F 3 "~" H 14700 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID4
+L Esp32LoraBoard-rescue:Fiducial-Mechanical FID4
 U 1 1 5F9D98F6
 P 15250 9400
 F 0 "FID4" H 15335 9446 50  0000 L CNN

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Esp32LoraBoard-rescue_+3.3V-power
+# +3.3V-power
 #
-DEF Esp32LoraBoard-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Esp32LoraBoard-rescue_+3.3V-power" 0 140 50 H V C CNN
+F1 "+3.3V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_Antenna_Shield-Device
+# Antenna_Shield-Device
 #
-DEF Esp32LoraBoard-rescue_Antenna_Shield-Device AE 0 40 N N 1 F N
+DEF Antenna_Shield-Device AE 0 40 N N 1 F N
 F0 "AE" -75 175 50 H V R CNN
-F1 "Esp32LoraBoard-rescue_Antenna_Shield-Device" -75 100 50 H V R CNN
+F1 "Antenna_Shield-Device" -75 100 50 H V R CNN
 F2 "" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 DRAW
@@ -37,11 +37,11 @@ X Shield 2 100 -200 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_Battery_Cell-Device
+# Battery_Cell-Device
 #
-DEF Esp32LoraBoard-rescue_Battery_Cell-Device BT 0 0 N N 1 F N
+DEF Battery_Cell-Device BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "Esp32LoraBoard-rescue_Battery_Cell-Device" 100 0 50 H V L CNN
+F1 "Battery_Cell-Device" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -56,11 +56,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_C-Device
+# C-Device
 #
-DEF Esp32LoraBoard-rescue_C-Device C 0 10 N Y 1 F N
+DEF C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Esp32LoraBoard-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -74,11 +74,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_CP_Small-Device
+# CP_Small-Device
 #
-DEF Esp32LoraBoard-rescue_CP_Small-Device C 0 10 N N 1 F N
+DEF CP_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Esp32LoraBoard-rescue_CP_Small-Device" 10 -80 50 H V L CNN
+F1 "CP_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -94,11 +94,11 @@ X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_C_Small-Device
+# C_Small-Device
 #
-DEF Esp32LoraBoard-rescue_C_Small-Device C 0 10 N N 1 F N
+DEF C_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Esp32LoraBoard-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F1 "C_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -112,11 +112,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_Conn_01x02_Male-Connector
+# Conn_01x02_Male-Connector
 #
-DEF Esp32LoraBoard-rescue_Conn_01x02_Male-Connector J 0 40 Y N 1 F N
+DEF Conn_01x02_Male-Connector J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Esp32LoraBoard-rescue_Conn_01x02_Male-Connector" 0 -200 50 H V C CNN
+F1 "Conn_01x02_Male-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -132,11 +132,11 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_Conn_01x03_Male-Connector
+# Conn_01x03_Male-Connector
 #
-DEF Esp32LoraBoard-rescue_Conn_01x03_Male-Connector J 0 40 Y N 1 F N
+DEF Conn_01x03_Male-Connector J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Esp32LoraBoard-rescue_Conn_01x03_Male-Connector" 0 -200 50 H V C CNN
+F1 "Conn_01x03_Male-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -155,11 +155,11 @@ X Pin_3 3 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_Conn_01x04_Female-Connector
+# Conn_01x04_Female-Connector
 #
-DEF Esp32LoraBoard-rescue_Conn_01x04_Female-Connector J 0 40 Y N 1 F N
+DEF Conn_01x04_Female-Connector J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Esp32LoraBoard-rescue_Conn_01x04_Female-Connector" 0 -300 50 H V C CNN
+F1 "Conn_01x04_Female-Connector" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -181,11 +181,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_Conn_01x05_Male-Connector
+# Conn_01x05_Male-Connector
 #
-DEF Esp32LoraBoard-rescue_Conn_01x05_Male-Connector J 0 40 Y N 1 F N
+DEF Conn_01x05_Male-Connector J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Esp32LoraBoard-rescue_Conn_01x05_Male-Connector" 0 -300 50 H V C CNN
+F1 "Conn_01x05_Male-Connector" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -210,11 +210,11 @@ X Pin_5 5 200 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_Conn_02x05_Odd_Even-Connector_Generic
+# Conn_02x05_Odd_Even-Connector_Generic
 #
-DEF Esp32LoraBoard-rescue_Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "Esp32LoraBoard-rescue_Conn_02x05_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
+F1 "Conn_02x05_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -245,11 +245,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_ESP32-WROOM-32-RF_Module
+# ESP32-WROOM-32-RF_Module
 #
-DEF Esp32LoraBoard-rescue_ESP32-WROOM-32-RF_Module U 0 20 Y Y 1 F N
+DEF ESP32-WROOM-32-RF_Module U 0 20 Y Y 1 F N
 F0 "U" -500 1350 50 H V L CNN
-F1 "Esp32LoraBoard-rescue_ESP32-WROOM-32-RF_Module" 50 1350 50 H V L CNN
+F1 "ESP32-WROOM-32-RF_Module" 50 1350 50 H V L CNN
 F2 "RF_Module:ESP32-WROOM-32" 0 -1500 50 H I C CNN
 F3 "" -300 50 50 H I C CNN
 $FPLIST
@@ -299,11 +299,11 @@ X IO33 9 600 -900 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_Fiducial-Mechanical
+# Fiducial-Mechanical
 #
-DEF Esp32LoraBoard-rescue_Fiducial-Mechanical FID 0 20 Y Y 1 F N
+DEF Fiducial-Mechanical FID 0 20 Y Y 1 F N
 F0 "FID" 0 200 50 H V C CNN
-F1 "Esp32LoraBoard-rescue_Fiducial-Mechanical" 0 125 50 H V C CNN
+F1 "Fiducial-Mechanical" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -314,11 +314,11 @@ C 0 0 50 0 1 20 f
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_GND-power
+# GND-power
 #
-DEF Esp32LoraBoard-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Esp32LoraBoard-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -327,11 +327,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_PWR_FLAG-power
+# PWR_FLAG-power
 #
-DEF Esp32LoraBoard-rescue_PWR_FLAG-power #FLG 0 0 N N 1 F P
+DEF PWR_FLAG-power #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "Esp32LoraBoard-rescue_PWR_FLAG-power" 0 150 50 H V C CNN
+F1 "PWR_FLAG-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -340,11 +340,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_Q_NMOS_GSD-Device
+# Q_NMOS_GSD-Device
 #
-DEF Esp32LoraBoard-rescue_Q_NMOS_GSD-Device Q 0 0 Y N 1 F N
+DEF Q_NMOS_GSD-Device Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Esp32LoraBoard-rescue_Q_NMOS_GSD-Device" 200 -50 50 H V L CNN
+F1 "Q_NMOS_GSD-Device" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -368,11 +368,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_Q_PMOS_GSD-Device
+# Q_PMOS_GSD-Device
 #
-DEF Esp32LoraBoard-rescue_Q_PMOS_GSD-Device Q 0 0 Y N 1 F N
+DEF Q_PMOS_GSD-Device Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Esp32LoraBoard-rescue_Q_PMOS_GSD-Device" 200 -50 50 H V L CNN
+F1 "Q_PMOS_GSD-Device" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -396,11 +396,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_R-Device
+# R-Device
 #
-DEF Esp32LoraBoard-rescue_R-Device R 0 0 N Y 1 F N
+DEF R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Esp32LoraBoard-rescue_R-Device" 0 0 50 V V C CNN
+F1 "R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -413,11 +413,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_RFM95W-868S2-RF_Module
+# RFM95W-868S2-RF_Module
 #
-DEF Esp32LoraBoard-rescue_RFM95W-868S2-RF_Module U 0 40 Y Y 1 F N
+DEF RFM95W-868S2-RF_Module U 0 40 Y Y 1 F N
 F0 "U" -410 460 50 H V L CNN
-F1 "Esp32LoraBoard-rescue_RFM95W-868S2-RF_Module" 60 450 50 H V L CNN
+F1 "RFM95W-868S2-RF_Module" 60 450 50 H V L CNN
 F2 "" -3300 1650 50 H I C CNN
 F3 "" -3300 1650 50 H I C CNN
 $FPLIST
@@ -444,11 +444,11 @@ X ANT 9 500 300 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_Rotary_Encoder_Switch-Device
+# Rotary_Encoder_Switch-Device
 #
-DEF Esp32LoraBoard-rescue_Rotary_Encoder_Switch-Device SW 0 10 Y N 1 F N
+DEF Rotary_Encoder_Switch-Device SW 0 10 Y N 1 F N
 F0 "SW" 0 260 50 H V C CNN
-F1 "Esp32LoraBoard-rescue_Rotary_Encoder_Switch-Device" 0 -260 50 H V C CNN
+F1 "Rotary_Encoder_Switch-Device" 0 -260 50 H V C CNN
 F2 "" -150 160 50 H I C CNN
 F3 "" 0 260 50 H I C CNN
 $FPLIST
@@ -482,11 +482,11 @@ X S2 S2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_SW_Push_Dual_x2-Switch
+# SW_Push_Dual_x2-Switch
 #
-DEF Esp32LoraBoard-rescue_SW_Push_Dual_x2-Switch SW 0 40 Y N 2 F N
+DEF SW_Push_Dual_x2-Switch SW 0 40 Y N 2 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Esp32LoraBoard-rescue_SW_Push_Dual_x2-Switch" 0 -60 50 H V C CNN
+F1 "SW_Push_Dual_x2-Switch" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -501,11 +501,11 @@ X D 4 200 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_Screw_Terminal_01x04-Connector
+# Screw_Terminal_01x04-Connector
 #
-DEF Esp32LoraBoard-rescue_Screw_Terminal_01x04-Connector J 0 40 Y N 1 F N
+DEF Screw_Terminal_01x04-Connector J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Esp32LoraBoard-rescue_Screw_Terminal_01x04-Connector" 0 -300 50 H V C CNN
+F1 "Screw_Terminal_01x04-Connector" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -532,11 +532,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_TestPoint-Connector
+# TestPoint-Connector
 #
-DEF Esp32LoraBoard-rescue_TestPoint-Connector TP 0 30 N N 1 F N
+DEF TestPoint-Connector TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "Esp32LoraBoard-rescue_TestPoint-Connector" 0 200 50 H V C CNN
+F1 "TestPoint-Connector" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
@@ -549,11 +549,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_USB_B_Micro-Connector
+# USB_B_Micro-Connector
 #
-DEF Esp32LoraBoard-rescue_USB_B_Micro-Connector J 0 40 Y Y 1 F N
+DEF USB_B_Micro-Connector J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "Esp32LoraBoard-rescue_USB_B_Micro-Connector" -200 350 50 H V L CNN
+F1 "USB_B_Micro-Connector" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -584,62 +584,17 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Esp32LoraBoard-rescue_VCC-power
+# VCC-power
 #
-DEF Esp32LoraBoard-rescue_VCC-power #PWR 0 0 Y Y 1 F P
+DEF VCC-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Esp32LoraBoard-rescue_VCC-power" 0 150 50 H V C CNN
+F1 "VCC-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 0 0 50 N
 X VCC 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# LM3940IMP-3.3_LM3940IMP-3.3
-#
-DEF LM3940IMP-3.3_LM3940IMP-3.3 U 0 40 Y Y 1 L N
-F0 "U" -173 300 50 H V L BNN
-F1 "LM3940IMP-3.3_LM3940IMP-3.3" -108 -648 50 H V L BNN
-F2 "SOT230P696X180-4N" 0 0 50 H I L BNN
-F3 "9779280" 0 0 50 H I L BNN
-F4 "41K5122" 0 0 50 H I L BNN
-F5 "LM3940IMP-33" 0 0 50 H I L BNN
-F6 "SOT-223-4" 0 0 50 H I L BNN
-F7 "National Semiconductors" 0 0 50 H I L BNN
-DRAW
-P 2 0 0 6 -500 -500 500 -500 N
-P 2 0 0 6 -500 200 -500 -500 N
-P 2 0 0 6 500 -500 500 200 N
-P 2 0 0 6 500 200 -500 200 N
-X IN 1 -700 0 200 R 40 40 0 0 W
-X GND_2 2 -700 -200 200 R 40 40 0 0 P
-X OUT 3 700 0 200 L 40 40 0 0 O
-X GND 4 -700 -300 200 R 40 40 0 0 P
-ENDDRAW
-ENDDEF
-#
-# UMH3N_UMH3N
-#
-DEF UMH3N_UMH3N Q 0 30 Y Y 1 F N
-F0 "Q" 750 300 50 H V L CNN
-F1 "UMH3N_UMH3N" 750 200 50 H V L CNN
-F2 "SOT65P230X110-6N" 750 100 50 H I L CNN
-F3 "" 750 0 50 H I L CNN
-F4 "2 NPN pre-biased (Dual) 100mA 50V SC-70-6(SOT-363) Digital Transistors RoHS" 750 -100 50 H I L CNN "Description"
-F5 "1.1" 750 -200 50 H I L CNN "Height"
-F6 "Changjiang Electronics Tech (CJ)" 750 -300 50 H I L CNN "Manufacturer_Name"
-F7 "UMH3N" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
-X E1 1 0 0 200 R 50 50 0 0 B
-X B1 2 0 -100 200 R 50 50 0 0 I
-X C2 3 0 -200 200 R 50 50 0 0 B
-X E2 4 900 -200 200 L 50 50 0 0 B
-X B2 5 900 -100 200 L 50 50 0 0 I
-X C1 6 900 0 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
